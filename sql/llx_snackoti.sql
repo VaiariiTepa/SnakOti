@@ -26,6 +26,8 @@ CREATE TABLE IF NOT EXISTS `llx_oti_panier` (
   `livrer` tinyint(1) NOT NULL,
   `type` tinyint(1) NOT NULL,
   `date` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  `qtt` int(11) NOT NULL,
+  `fk_oti_vente_id` int(11) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
@@ -37,5 +39,20 @@ CREATE TABLE IF NOT EXISTS `llx_oti_panier` (
 CREATE TABLE IF NOT EXISTS `llx_oti_vente` (
   `id` int(11) NOT NULL auto_increment,
   `date` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  `jour` varchar(40) null,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+
+--
+-- Structure de la table `llx_oti_caisse`
+--
+
+CREATE TABLE IF NOT EXISTS `llx_oti_caisse` (
+  `id` int(11) NOT NULL auto_increment,
+  `fondcaisse` int(11) NOT NULL,
+  `fk_oti_vente_id` int(11) NOT NULL,
+  `retrait` int(11) NULL,
+  `description` varchar(255) NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
