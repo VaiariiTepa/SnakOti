@@ -1,7 +1,7 @@
 # MYMODULE FOR <a href="https://www.dolibarr.org">DOLIBARR ERP CRM</a>
 
 ## Features
-Description...
+Module Dolibarr développer en PHP, pour utiliser ce module il vous faut au préalable installer Dolibarr et ensuite coller le dossier SnackOti dans ce dossier (dolibarr/htdocs/) puis activer le module dans dolibarr (gestion des modules)
 
 <!--
 ![Screenshot mymodule](img/screenshot_mymodule.png?raw=true "MyModule"){imgmd}
