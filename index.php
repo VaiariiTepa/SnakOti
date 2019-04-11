@@ -58,12 +58,9 @@ if (isset($user->societe_id) && $user->societe_id > 0)
 
 $SnakOti = new SnackOti($db);
 
-
-/*
- * Actions
+/**
+ * Page "Créer une vente OU ouvrire une vente
  */
-
-
 
 /*
  * View

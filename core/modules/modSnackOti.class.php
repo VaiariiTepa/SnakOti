@@ -26,6 +26,9 @@
  */
 include_once DOL_DOCUMENT_ROOT .'/core/modules/DolibarrModules.class.php';
 
+/**
+* Etape important -- La configuration du module
+ */
 
 // The class name should start with a lower case mod for Dolibarr to pick it up
 // so we ignore the Squiz.Classes.ValidClassName.NotCamelCaps rule.

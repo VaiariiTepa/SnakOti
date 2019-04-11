@@ -28,6 +28,10 @@ require_once DOL_DOCUMENT_ROOT . '/societe/class/societe.class.php';
 require_once DOL_DOCUMENT_ROOT . '/product/class/product.class.php';
 
 /**
+ * La Classe que j'ai développer
+ */
+
+/**
  * Class for MyObject
  */
 class SnackOti extends CommonObject

@@ -53,6 +53,11 @@ if (isset($user->societe_id) && $user->societe_id > 0)
 	$action = '';
 	$socid = $user->societe_id;
 }
+
+
+//  Page "Prise de commandes + historique de vente + calcules de la caisse 
+ 
+
 //initialise object
 $SnackOti = new SnackOti($db);
 $allThirdContact = new Societe($db);

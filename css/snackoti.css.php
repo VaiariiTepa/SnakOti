@@ -80,7 +80,7 @@ else header('Cache-Control: no-cache');
 }
 
 
-
+/* Intégration de BOOTSTRAP */
 
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
